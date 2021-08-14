@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+/*
 
 struct LoggedInUser {}
 struct FeeddItem {}
@@ -52,4 +53,4 @@ class FeedViewController: UIViewController {
     }
 }
 
-
+ */
