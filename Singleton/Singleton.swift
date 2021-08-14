@@ -8,15 +8,14 @@
 import Foundation
 import UIKit
 
-
 /*
 struct LoggedInUser {}
 struct FeedItem {}
 
-//Singletons with Capital S.
+// Singletons with Capital S.
 class ApiClient {
     private init(){}
-    static var shared = ApiClient()
+    static let shared = ApiClient()
     
     func login(complition: (LoggedInUser) -> Void) {}
     func loadFeed(complition: ([FeedItem]) -> Void) {}
@@ -48,6 +47,7 @@ class MockApiClinet: ApiClient {
 //    }
 }
 
+
 //One way to test above code
 class LoginViewController {
     var api = ApiClient.shared
@@ -69,9 +69,10 @@ class LoginViewController {
 //Now extens some feature
 
 class FeedViewController: UIViewController{
+    var api = ApiClient.shared
+
     override func viewDidLoad(){
         super.viewDidLoad()
-        
         api.loadFeed { feed in
             //Show Feed
         }
@@ -101,6 +102,6 @@ class FeedViewController: UIViewController{
 /*
   Every time we add mew module we break other one.
   Solution :- Use extensions
- 
  */
+
 */
