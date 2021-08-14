@@ -16,6 +16,12 @@
 		04706EE826C7A5A4005B007B /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04706EE726C7A5A4005B007B /* Singleton.swift */; };
 		04706EEC26C7ABE0005B007B /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 04706EEB26C7ABE0005B007B /* Readme.md */; };
 		04706EEF26C7C26D005B007B /* BreakingInModules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04706EEE26C7C26D005B007B /* BreakingInModules.swift */; };
+		04706EF226C7C51C005B007B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04706EF126C7C51C005B007B /* 1.png */; };
+		04706EF526C7C521005B007B /* Stage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04706EF426C7C521005B007B /* Stage1.png */; };
+		04706EF826C7D9C2005B007B /* stage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04706EF726C7D9C2005B007B /* stage2.png */; };
+		04706EFC26C7DAA4005B007B /* stage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 04706EFA26C7DAA4005B007B /* stage3.png */; };
+		04706EFD26C7DAA4005B007B /* stage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 04706EFB26C7DAA4005B007B /* stage4.png */; };
+		04706F0026C7DCB1005B007B /* Stage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04706EFF26C7DCB1005B007B /* Stage4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,12 @@
 		04706EE726C7A5A4005B007B /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		04706EEB26C7ABE0005B007B /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		04706EEE26C7C26D005B007B /* BreakingInModules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingInModules.swift; sourceTree = "<group>"; };
+		04706EF126C7C51C005B007B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		04706EF426C7C521005B007B /* Stage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stage1.png; sourceTree = "<group>"; };
+		04706EF726C7D9C2005B007B /* stage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage2.png; sourceTree = "<group>"; };
+		04706EFA26C7DAA4005B007B /* stage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage3.png; sourceTree = "<group>"; };
+		04706EFB26C7DAA4005B007B /* stage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage4.png; sourceTree = "<group>"; };
+		04706EFF26C7DCB1005B007B /* Stage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,10 +77,16 @@
 			children = (
 				04706EE726C7A5A4005B007B /* Singleton.swift */,
 				04706EEE26C7C26D005B007B /* BreakingInModules.swift */,
+				04706EFF26C7DCB1005B007B /* Stage4.swift */,
 				04706ED226C7A50E005B007B /* AppDelegate.swift */,
 				04706ED426C7A50E005B007B /* SceneDelegate.swift */,
 				04706ED626C7A50E005B007B /* ViewController.swift */,
 				04706ED826C7A50E005B007B /* Main.storyboard */,
+				04706EF126C7C51C005B007B /* 1.png */,
+				04706EF426C7C521005B007B /* Stage1.png */,
+				04706EF726C7D9C2005B007B /* stage2.png */,
+				04706EFA26C7DAA4005B007B /* stage3.png */,
+				04706EFB26C7DAA4005B007B /* stage4.png */,
 				04706EDB26C7A50F005B007B /* Assets.xcassets */,
 				04706EDD26C7A50F005B007B /* LaunchScreen.storyboard */,
 				04706EE026C7A50F005B007B /* Info.plist */,
@@ -133,10 +151,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04706EF526C7C521005B007B /* Stage1.png in Resources */,
 				04706EDF26C7A50F005B007B /* LaunchScreen.storyboard in Resources */,
 				04706EDC26C7A50F005B007B /* Assets.xcassets in Resources */,
+				04706EF826C7D9C2005B007B /* stage2.png in Resources */,
+				04706EFD26C7DAA4005B007B /* stage4.png in Resources */,
+				04706EFC26C7DAA4005B007B /* stage3.png in Resources */,
 				04706EEC26C7ABE0005B007B /* Readme.md in Resources */,
 				04706EDA26C7A50E005B007B /* Main.storyboard in Resources */,
+				04706EF226C7C51C005B007B /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04706ED726C7A50E005B007B /* ViewController.swift in Sources */,
+				04706F0026C7DCB1005B007B /* Stage4.swift in Sources */,
 				04706EEF26C7C26D005B007B /* BreakingInModules.swift in Sources */,
 				04706EE826C7A5A4005B007B /* Singleton.swift in Sources */,
 				04706ED326C7A50E005B007B /* AppDelegate.swift in Sources */,

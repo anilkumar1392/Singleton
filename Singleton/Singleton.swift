@@ -8,8 +8,10 @@
 import Foundation
 import UIKit
 
+
+/*
 struct LoggedInUser {}
-struct FeeddItem {}
+struct FeedItem {}
 
 //Singletons with Capital S.
 class ApiClient {
@@ -17,7 +19,7 @@ class ApiClient {
     static var shared = ApiClient()
     
     func login(complition: (LoggedInUser) -> Void) {}
-    func loadFeed(complition: ([FeeddItem]) -> Void) {}
+    func loadFeed(complition: ([FeedItem]) -> Void) {}
   }
 
 
@@ -101,3 +103,4 @@ class FeedViewController: UIViewController{
   Solution :- Use extensions
  
  */
+*/
